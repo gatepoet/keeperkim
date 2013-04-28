@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>keeperkim.no</id>
+    <title>keeperkim.no</title>
+    <version>1.0.0</version>
+    <authors>DeiCon</authors>
+    <owners>DeiCon</owners>
+    <licenseUrl>http://deicon.no</licenseUrl>
+    <projectUrl>http://github.com/gatepoet/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hjemmeside for Kim Deinoff</description>
+    <releaseNotes>This release contains the following changes...</releaseNotes>
+  </metadata>
+</package>
