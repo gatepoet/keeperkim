@@ -7,23 +7,17 @@ namespace KeeperKim.Web.App_Start
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
-
-            bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui-{version}.js"));
-
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.unobtrusive*",
-                        "~/Scripts/jquery.validate*"));
+            bundles.Add(new ScriptBundle("~/bundles/jquery").Include("~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/knockback").Include(
-                        "~/Scripts/knockout-{version}.js"));
+                "~/Scripts/knockout-{version}.js",
+                "~/Scripts/underscore.js",
+                "~/Scripts/lib/knockback-*",
+                "~/Scripts/knockback-{version}.js"));
 
             #region Foundation Bundles
             //If your project requires jQuery, you may remove the zepto bundle
-            bundles.Add(new ScriptBundle("~/bundles/zepto").Include(
-                    "~/Scripts/zepto.js"));
+            bundles.Add(new ScriptBundle("~/bundles/zepto").Include("~/Scripts/zepto.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/foundation").Include(
                       "~/Scripts/foundation/foundation.js",
@@ -44,8 +38,7 @@ namespace KeeperKim.Web.App_Start
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/stylesheets/site.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include("~/stylesheets/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",

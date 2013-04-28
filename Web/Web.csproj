@@ -343,7 +343,6 @@
     <None Include="Scripts\jquery-2.0.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.0.js" />
     <Content Include="Scripts\jquery-2.0.0.min.js" />
-    <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\knockback-core-stack.js" />
     <Content Include="Scripts\knockback-core-stack.min.js" />
     <Content Include="Scripts\knockback-core.js" />
@@ -368,12 +367,7 @@
     <Content Include="Scripts\underscore.js" />
     <Content Include="Scripts\underscore.min.js" />
     <Content Include="Scripts\zepto.js" />
-    <Content Include="stylesheets\foundation.css">
-      <DependentUpon>foundation.css.bundle</DependentUpon>
-    </Content>
-    <Content Include="stylesheets\foundation.min.css">
-      <DependentUpon>foundation.css.bundle</DependentUpon>
-    </Content>
+    <Content Include="stylesheets\foundation.css" />
     <Content Include="stylesheets\foundation.mvc.css" />
     <Content Include="stylesheets\foundation.mvc.min.css">
       <DependentUpon>foundation.mvc.css</DependentUpon>
@@ -482,7 +476,6 @@
     <Content Include="Views\Shared\_Foundation.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.0.0.min.map" />
-    <None Include="stylesheets\foundation.css.bundle" />
     <Content Include="Web.nuspec" />
   </ItemGroup>
   <ItemGroup>
