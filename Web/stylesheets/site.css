@@ -6006,3 +6006,8 @@ img.front-page {
   border-radius: 5px !important;
   width: 100%;
 }
+
+/* line 12, ../sass/site.scss */
+.orbit-caption {
+  border-radius: 0px 0px 5px 5px !important;
+}
