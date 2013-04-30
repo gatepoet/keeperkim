@@ -28,4 +28,5 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 [Pp]ublish*/
 targets/*
-stylesheets/*
+stylesheets/
+.sass-cache/

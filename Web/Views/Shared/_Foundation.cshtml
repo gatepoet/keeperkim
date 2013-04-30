@@ -21,11 +21,9 @@
 <body>
     @RenderBody()
     
-      <script>
-          document.write(('__proto__' in {}
-              ? '@Scripts.Render("~/bundles/zepto")'
-              : '@Scripts.Render("~/bundles/jquery")'));
-    </script>
+
+    @Scripts.Render("~/bundles/jquery")
+    
 
     
     @Scripts.Render("~/bundles/foundation")

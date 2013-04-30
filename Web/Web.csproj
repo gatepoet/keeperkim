@@ -253,21 +253,21 @@
     <Content Include="Images\front_a.jpg" />
     <Content Include="Images\keeperkim.png" />
     <Content Include="Images\Kim-BA-cup-2009.jpg" />
-    <Content Include="Images\Kim_Deinoff-Løv-Ham_2009.jpg" />
-    <Content Include="sass\normalize.scss">
+    <Content Include="Images\Kim_Deinoff-Lov-Ham_2009.jpg" />
+    <None Include="sass\normalize.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
       <OutputFolder>C:\Workbench\keeperkim.no\Web\stylesheets</OutputFolder>
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
-    </Content>
-    <Content Include="sass\site.scss">
+    </None>
+    <None Include="sass\site.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
       <OutputFolder>C:\Workbench\keeperkim.no\Web\stylesheets</OutputFolder>
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
-    </Content>
+    </None>
     <Content Include="Scripts\backbone.js" />
     <Content Include="Scripts\backbone.min.js" />
     <Content Include="Scripts\foundation\foundation.alerts.js" />
@@ -284,20 +284,20 @@
     <Content Include="Scripts\foundation\foundation.section.js" />
     <Content Include="Scripts\foundation\foundation.tooltips.js" />
     <Content Include="Scripts\foundation\foundation.topbar.js" />
-    <Content Include="sass\foundation.mvc.scss">
+    <None Include="sass\foundation.mvc.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
       <OutputFolder>C:\Workbench\keeperkim.no\Web\stylesheets</OutputFolder>
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
-    </Content>
-    <Content Include="sass\foundation.scss">
+    </None>
+    <None Include="sass\foundation.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
       <OutputFolder>C:\Workbench\keeperkim.no\Web\stylesheets</OutputFolder>
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
-    </Content>
+    </None>
     <Content Include="sass\foundation\components\alert-boxes.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
