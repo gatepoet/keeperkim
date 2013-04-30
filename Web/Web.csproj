@@ -38,6 +38,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabases>false</PublishDatabases>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DotNetOpenAuth.AspNet, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
@@ -232,7 +233,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -254,6 +254,7 @@
     <Content Include="Images\keeperkim.png" />
     <Content Include="Images\Kim-BA-cup-2009.jpg" />
     <Content Include="Images\Kim_Deinoff-Lov-Ham_2009.jpg" />
+    <None Include="Properties\PublishProfiles\UnoEuro.pubxml" />
     <None Include="sass\normalize.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
@@ -298,48 +299,48 @@
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
     </None>
-    <Content Include="sass\foundation\components\alert-boxes.scss">
+    <None Include="sass\foundation\components\alert-boxes.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
-    </Content>
-    <Content Include="sass\foundation\components\block-grid.scss" />
-    <Content Include="sass\foundation\components\breadcrumbs.scss" />
-    <Content Include="sass\foundation\components\button-groups.scss" />
-    <Content Include="sass\foundation\components\buttons.scss" />
-    <Content Include="sass\foundation\components\clearing.scss" />
-    <Content Include="sass\foundation\components\custom-forms.scss" />
-    <Content Include="sass\foundation\components\dropdown-buttons.scss" />
-    <Content Include="sass\foundation\components\dropdown.scss" />
-    <Content Include="sass\foundation\components\flex-video.scss" />
-    <Content Include="sass\foundation\components\forms.scss" />
-    <Content Include="sass\foundation\components\global.scss" />
-    <Content Include="sass\foundation\components\grid.scss" />
-    <Content Include="sass\foundation\components\inline-lists.scss" />
-    <Content Include="sass\foundation\components\joyride.scss" />
-    <Content Include="sass\foundation\components\keystrokes.scss" />
-    <Content Include="sass\foundation\components\labels.scss" />
-    <Content Include="sass\foundation\components\magellan.scss" />
-    <Content Include="sass\foundation\components\orbit.scss" />
-    <Content Include="sass\foundation\components\pagination.scss" />
-    <Content Include="sass\foundation\components\panels.scss" />
-    <Content Include="sass\foundation\components\pricing-tables.scss" />
-    <Content Include="sass\foundation\components\progress-bars.scss" />
-    <Content Include="sass\foundation\components\reveal.scss" />
-    <Content Include="sass\foundation\components\section.scss" />
-    <Content Include="sass\foundation\components\side-nav.scss" />
-    <Content Include="sass\foundation\components\split-buttons.scss" />
-    <Content Include="sass\foundation\components\sub-nav.scss" />
-    <Content Include="sass\foundation\components\switch.scss" />
-    <Content Include="sass\foundation\components\tables.scss" />
-    <Content Include="sass\foundation\components\thumbs.scss" />
-    <Content Include="sass\foundation\components\tooltips.scss" />
-    <Content Include="sass\foundation\components\top-bar.scss" />
-    <Content Include="sass\foundation\components\type.scss" />
-    <Content Include="sass\foundation\components\visibility.scss" />
-    <Content Include="sass\foundation\foundation-global.scss" />
-    <Content Include="config.rb" />
+    </None>
+    <None Include="sass\foundation\components\block-grid.scss" />
+    <None Include="sass\foundation\components\breadcrumbs.scss" />
+    <None Include="sass\foundation\components\button-groups.scss" />
+    <None Include="sass\foundation\components\buttons.scss" />
+    <None Include="sass\foundation\components\clearing.scss" />
+    <None Include="sass\foundation\components\custom-forms.scss" />
+    <None Include="sass\foundation\components\dropdown-buttons.scss" />
+    <None Include="sass\foundation\components\dropdown.scss" />
+    <None Include="sass\foundation\components\flex-video.scss" />
+    <None Include="sass\foundation\components\forms.scss" />
+    <None Include="sass\foundation\components\global.scss" />
+    <None Include="sass\foundation\components\grid.scss" />
+    <None Include="sass\foundation\components\inline-lists.scss" />
+    <None Include="sass\foundation\components\joyride.scss" />
+    <None Include="sass\foundation\components\keystrokes.scss" />
+    <None Include="sass\foundation\components\labels.scss" />
+    <None Include="sass\foundation\components\magellan.scss" />
+    <None Include="sass\foundation\components\orbit.scss" />
+    <None Include="sass\foundation\components\pagination.scss" />
+    <None Include="sass\foundation\components\panels.scss" />
+    <None Include="sass\foundation\components\pricing-tables.scss" />
+    <None Include="sass\foundation\components\progress-bars.scss" />
+    <None Include="sass\foundation\components\reveal.scss" />
+    <None Include="sass\foundation\components\section.scss" />
+    <None Include="sass\foundation\components\side-nav.scss" />
+    <None Include="sass\foundation\components\split-buttons.scss" />
+    <None Include="sass\foundation\components\sub-nav.scss" />
+    <None Include="sass\foundation\components\switch.scss" />
+    <None Include="sass\foundation\components\tables.scss" />
+    <None Include="sass\foundation\components\thumbs.scss" />
+    <None Include="sass\foundation\components\tooltips.scss" />
+    <None Include="sass\foundation\components\top-bar.scss" />
+    <None Include="sass\foundation\components\type.scss" />
+    <None Include="sass\foundation\components\visibility.scss" />
+    <None Include="sass\foundation\foundation-global.scss" />
+    <None Include="config.rb" />
     <None Include="Scripts\jquery-2.0.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.0.js" />
     <Content Include="Scripts\jquery-2.0.0.min.js" />
@@ -367,64 +368,9 @@
     <Content Include="Scripts\underscore.js" />
     <Content Include="Scripts\underscore.min.js" />
     <Content Include="Scripts\zepto.js" />
-    <Content Include="stylesheets\foundation.css" />
-    <Content Include="stylesheets\foundation.mvc.css" />
-    <Content Include="stylesheets\foundation.mvc.min.css">
-      <DependentUpon>foundation.mvc.css</DependentUpon>
-    </Content>
-    <Content Include="stylesheets\foundation\components\alert-boxes.css" />
-    <Content Include="stylesheets\foundation\components\block-grid.css" />
-    <Content Include="stylesheets\foundation\components\breadcrumbs.css" />
-    <Content Include="stylesheets\foundation\components\button-groups.css" />
-    <Content Include="stylesheets\foundation\components\buttons.css" />
-    <Content Include="stylesheets\foundation\components\clearing.css" />
-    <Content Include="stylesheets\foundation\components\custom-forms.css" />
-    <Content Include="stylesheets\foundation\components\dropdown-buttons.css" />
-    <Content Include="stylesheets\foundation\components\dropdown.css" />
-    <Content Include="stylesheets\foundation\components\flex-video.css" />
-    <Content Include="stylesheets\foundation\components\forms.css" />
-    <Content Include="stylesheets\foundation\components\global.css" />
-    <Content Include="stylesheets\foundation\components\grid.css" />
-    <Content Include="stylesheets\foundation\components\inline-lists.css" />
-    <Content Include="stylesheets\foundation\components\joyride.css" />
-    <Content Include="stylesheets\foundation\components\keystrokes.css" />
-    <Content Include="stylesheets\foundation\components\labels.css" />
-    <Content Include="stylesheets\foundation\components\magellan.css" />
-    <Content Include="stylesheets\foundation\components\orbit.css" />
-    <Content Include="stylesheets\foundation\components\pagination.css" />
-    <Content Include="stylesheets\foundation\components\panels.css" />
-    <Content Include="stylesheets\foundation\components\pricing-tables.css" />
-    <Content Include="stylesheets\foundation\components\progress-bars.css" />
-    <Content Include="stylesheets\foundation\components\reveal.css" />
-    <Content Include="stylesheets\foundation\components\Scss1.css" />
-    <Content Include="stylesheets\foundation\components\section.css" />
-    <Content Include="stylesheets\foundation\components\side-nav.css" />
-    <Content Include="stylesheets\foundation\components\split-buttons.css" />
-    <Content Include="stylesheets\foundation\components\sub-nav.css" />
-    <Content Include="stylesheets\foundation\components\switch.css" />
-    <Content Include="stylesheets\foundation\components\tables.css" />
-    <Content Include="stylesheets\foundation\components\thumbs.css" />
-    <Content Include="stylesheets\foundation\components\tooltips.css" />
-    <Content Include="stylesheets\foundation\components\top-bar.css" />
-    <Content Include="stylesheets\foundation\components\type.css" />
-    <Content Include="stylesheets\foundation\components\visibility.css" />
-    <Content Include="stylesheets\foundation\foundation-global.css" />
-    <Content Include="stylesheets\ie.css" />
-    <Content Include="stylesheets\ie.min.css">
-      <DependentUpon>ie.css</DependentUpon>
-    </Content>
-    <Content Include="stylesheets\normalize.css" />
-    <Content Include="stylesheets\normalize.min.css">
-      <DependentUpon>normalize.css</DependentUpon>
-    </Content>
-    <Content Include="stylesheets\print.css" />
-    <Content Include="stylesheets\print.min.css">
-      <DependentUpon>print.css</DependentUpon>
-    </Content>
-    <Content Include="stylesheets\screen.css" />
-    <Content Include="stylesheets\screen.min.css">
-      <DependentUpon>screen.css</DependentUpon>
-    </Content>
+    <None Include="stylesheets\foundation.css" />
+    <None Include="stylesheets\foundation.mvc.css" />
+    <None Include="stylesheets\normalize.css" />
     <Content Include="stylesheets\site.css" />
     <Content Include="stylesheets\site.min.css">
       <DependentUpon>site.css</DependentUpon>
@@ -476,7 +422,7 @@
     <Content Include="Views\Shared\_Foundation.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.0.0.min.map" />
-    <Content Include="Web.nuspec" />
+    <None Include="Web.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
